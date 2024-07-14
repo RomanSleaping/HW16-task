@@ -1,0 +1,10 @@
+div {
+  width: 100vw;
+  height: 100vh;
+  background-color: green;
+  background-image: url(./img/hause.webp), url(./img/grass.png),
+    url(./img/lamp.png), url(./img/donuts.png), url(./img/hedgehog.webp);
+  background-position: center, bottom, top, right, left;
+  background-repeat: no-repeat, repeat-x, repeat-x, repeat-y, repeat-y;
+  background-size: auto, 300px auto, 30px auto, 60px auto, 70px auto;
+}
